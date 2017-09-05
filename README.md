@@ -3,7 +3,7 @@ This program is designed to automate the work of a restaurant.
 Used: jdbc, dao and mvc patterns, swing.
 
 ## Import database
-Download [the project SQL-file](/sql/restaurant.sql). Execute the file and ensure  'restaurant'  database has been created.
+Download and execute [db_schema](./sql/db_schema.sql) and [populate_db](/sql/populate_db.sql) sql files.
 
 ## Build
     mvn clean package
